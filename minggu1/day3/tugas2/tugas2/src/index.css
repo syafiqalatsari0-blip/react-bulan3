@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  padding: 20px;
+}
+
+.app-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.product-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  color: #28a745;
+  margin-bottom: 8px;
+}
+
+.product-stock {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.product-status {
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  background: #e9f5ec;
+  color: #28a745;
+}
+
+.product-card.unavailable {
+  opacity: 0.7;
+}
+
+.product-card.unavailable .product-status {
+  background: #fde8e8;
+  color: #dc3545;
+}

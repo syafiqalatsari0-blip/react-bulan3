@@ -1,0 +1,40 @@
+/* index.css */
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling untuk sapaan */
+.greeting {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px 40px;
+  margin: 15px;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  color: #00e6e6;
+  letter-spacing: 1px;
+}
+
+.greeting:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+  color: #ffcc70;
+}

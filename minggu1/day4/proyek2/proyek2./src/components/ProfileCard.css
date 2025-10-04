@@ -1,0 +1,54 @@
+.profile-card {
+  width: 320px;
+  background: linear-gradient(180deg, #0f172a 0%, #071028 100%);
+  color: #e6eef8;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(2,6,23,0.6);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px; /* circle */
+  border: 2px solid rgba(255,255,255,0.08);
+}
+
+.profile-name {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.profile-bio {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 14px;
+}
+
+.profile-footer {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.04);
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: linear-gradient(90deg, #06b6d4, #7c3aed);
+  border: none;
+  color: white;
+}

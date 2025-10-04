@@ -1,0 +1,23 @@
+.alert {
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Success style */
+.success {
+  background-color: #16a34a; /* hijau */
+}
+
+/* Warning style */
+.warning {
+  background-color: #ca8a04; /* kuning */
+}
+
+/* Error style */
+.error {
+  background-color: #dc2626; /* merah */
+}
